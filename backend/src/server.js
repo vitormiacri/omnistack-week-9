@@ -17,7 +17,7 @@ io.on("connection", socket => {
 });
 
 mongoose.connect(
-  "mongodb+srv://semana:semana@cluster0-xiikz.mongodb.net/aircnc?retryWrites=true&w=majority",
+  "mongodb+srv://<user>:<password>@cluster0-xiikz.mongodb.net/aircnc?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true
